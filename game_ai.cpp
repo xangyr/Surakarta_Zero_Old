@@ -56,8 +56,6 @@ void game_AI(int depth){
     Init_Position();
     Init_Display_Position();
 
-
-
     choice Choice;
     Choice=begin();
     who=-Choice.choice_1;

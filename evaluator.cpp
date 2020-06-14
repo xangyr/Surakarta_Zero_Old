@@ -5,6 +5,7 @@
 #include "evaluator.h"
 extern int chessboard_test[6][6];
 extern int who;
+
 int chessboard_value[6][6]={
         {5,20,20,20,20,5},
         {20,30,50,50,30,20},
@@ -35,8 +36,10 @@ int look_for_anotherMark[12][2]={
         {3,2},{3,1},{4,2},
         {3,3},{3,4},{4,3}
 };
+
 int arcPara;
 int k1=1,k2=1,k3=1,k4=1;
+
 int Evaluate(int chessboard_test[][6],int who_test){
     int test=Evaluate_test(chessboard_test,who_test);
     if(test==9999||test==-9999)

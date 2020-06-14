@@ -8,10 +8,13 @@
 #include "initialization.h"
 #include "game_ai.h"
 #include "sort.h"
+#include "chessboard.h"
 #include "run.h"
 #include "record.h"
 #define Black_Chess 1
 #define White_Chess -1
+using namespace std;
+
 int chessboard[6][6]={
         {0, -1 ,-1 ,-1, 0 ,0 },
         {-1 ,0, 0 ,0 ,0 ,0 },
@@ -26,25 +29,15 @@ FILE *battle;
 Move_List battle_record;
 char path[70]="/Users/bluesky/Desktop/Surakarta_Zero/Battle/record.txt";
 int main(void){
-    double duration;
-    clock_t start,stop;
-    start=clock();
-    {Hash_Board_Init(Hash_Board);
-
-        FILE *fp;
-        fp=fopen("../resource/Data/testAlphaBeta1.txt","r");
-        if(fp==NULL){
-            printf("open Error\n");
-            return 0;
-        }
-        test_alpha_beta(fp);
-    }
-    stop=clock();
-    duration=((double)(stop-start))/CLOCKS_PER_SEC;
-    printf("time=%.1lfs\n",duration);
-    /*{
+    clock_t start,end;
+    start = clock();
    FILE *fp;
-   fp=fopen("/Users/bluesky/Desktop/Surakarta_Zero/Data/testMoveGenerate.txt","r");
-   test(fp);
-   }*/
+
+        fp = fopen("../resource/Data/testAlphaBeta.txt", "r");
+        test_alpha_beta(fp);
+
+    end = clock();
+    cout<<"time:"<<(double)((end-start)/CLOCKS_PER_SEC);
+
+    return 0;
 }

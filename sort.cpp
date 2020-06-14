@@ -3,14 +3,14 @@
 //
 
 #include "sort.h"
-void merge_sort(Move *list,int length){
+void merge_sort(Move_p *list,int length){
     if(length<2){
         return;
     }
     else{
-        Move *right,*left;
-        right=(Move *)malloc((length/2)*sizeof(Move));
-        left=(Move *)malloc((length-length/2)*sizeof(Move));
+        Move_p *right,*left;
+        right=(Move_p *)malloc((length/2)*sizeof(Move_p));
+        left=(Move_p *)malloc((length-length/2)*sizeof(Move_p));
         for(int a=0;a<length/2;a++)
             right[a]=list[a];
         for(int a=length/2;a<length;a++)
@@ -20,7 +20,7 @@ void merge_sort(Move *list,int length){
         merge(list,right,left,length);
     }
 }
-void merge(Move *list,Move *right,Move *left,int length){
+void merge(Move_p *list,Move_p *right,Move_p *left,int length){
     int index_r=0,index_l=0,index=0;
     while(index<length){
         if(index_r==length/2){
@@ -56,7 +56,7 @@ void switch_move(Move_List *h,int a){
     if(a==0)
         return;
     else{
-        Move t;
+        Move_p t;
         t=h->list[0];
         h->list[0]=h->list[a];
         h->list[a]=t;

@@ -8,6 +8,9 @@
 #define HashExact 0
 #define HashAlpha 1
 #define HashBeta 2
+#define NO_CHESS 0
+#define WHITE_CHESS 1
+#define BLACK_CHESS -1
 #include <iostream>
 
 typedef struct{
@@ -19,7 +22,12 @@ typedef struct{
     Position from;
     Position to;
     int value;
-}Move;
+}Move_p;
+
+typedef struct{
+    Position from;
+    Position to;
+}singleMove;
 
 typedef struct{
     Position node;
@@ -40,7 +48,7 @@ typedef struct{
 }Rool;
 
 typedef struct{
-    Move list[100];
+    Move_p list[100];
     int  flag;
 }Move_List;
 
@@ -85,10 +93,14 @@ typedef struct{
     int who;
 }Para_1;
 
+class Move{
+public:
+    singleMove move;
+    Move(int from_x,int from_y,int to_x,int to_y);
+};
 void visualize_board();
 void visualize(Move_List *h);
 int judge(int chessboard_test[][6]);
-int judge_test(int chessboard_test[][6]);
 int max(int a,int b);
 int mini(int a,int b);
 #endif //SURAKARTA_ZERO_BASIC_H

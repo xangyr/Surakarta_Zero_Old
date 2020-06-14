@@ -31,7 +31,6 @@ void Move_Generate(Move_List *h, int who,int chessboard_test[][6])
             }
         }
     }
-
 }
 
 void Add_Move(Move_List *h, int from_x, int from_y, int to_x, int to_y)
@@ -320,10 +319,10 @@ int extract_inside_rool_4(Rool *rool_4,int chessboard_test[][6]){
     }
     return index;
 }
-int Sort_Move(Move *h,int flag){
-    Move *p;
+int Sort_Move(Move_p *h,int flag){
+    Move_p *p;
     int index,count=0;
-    p=(Move *)malloc(24*sizeof(Move));
+    p=(Move_p *)malloc(24*sizeof(Move_p));
     for(int i=0;i<flag;i++)
     {index=0;
         for(int o=i+1;o<flag;o++){

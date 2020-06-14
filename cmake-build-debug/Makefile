@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bluesky/Desktop/Surakarta_Zero
+CMAKE_SOURCE_DIR = /Users/bluesky/Documents/Surakarta_Zero_OLD
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles /Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/CMakeFiles /Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ Surakarta_Zero: cmake_check_build_system
 Surakarta_Zero/fast:
 	$(MAKE) -f CMakeFiles/Surakarta_Zero.dir/build.make CMakeFiles/Surakarta_Zero.dir/build
 .PHONY : Surakarta_Zero/fast
+
+ArrayList.o: ArrayList.cpp.o
+
+.PHONY : ArrayList.o
+
+# target to build an object file
+ArrayList.cpp.o:
+	$(MAKE) -f CMakeFiles/Surakarta_Zero.dir/build.make CMakeFiles/Surakarta_Zero.dir/ArrayList.cpp.o
+.PHONY : ArrayList.cpp.o
+
+ArrayList.i: ArrayList.cpp.i
+
+.PHONY : ArrayList.i
+
+# target to preprocess a source file
+ArrayList.cpp.i:
+	$(MAKE) -f CMakeFiles/Surakarta_Zero.dir/build.make CMakeFiles/Surakarta_Zero.dir/ArrayList.cpp.i
+.PHONY : ArrayList.cpp.i
+
+ArrayList.s: ArrayList.cpp.s
+
+.PHONY : ArrayList.s
+
+# target to generate assembly for a file
+ArrayList.cpp.s:
+	$(MAKE) -f CMakeFiles/Surakarta_Zero.dir/build.make CMakeFiles/Surakarta_Zero.dir/ArrayList.cpp.s
+.PHONY : ArrayList.cpp.s
 
 basic.o: basic.cpp.o
 
@@ -510,6 +537,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Surakarta_Zero"
+	@echo "... ArrayList.o"
+	@echo "... ArrayList.i"
+	@echo "... ArrayList.s"
 	@echo "... basic.o"
 	@echo "... basic.i"
 	@echo "... basic.s"

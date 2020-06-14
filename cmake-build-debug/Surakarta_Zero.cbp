@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug"/>
+				<Option working_dir="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug"/>
+				<Option working_dir="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug"/>
+				<Option working_dir="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Surakarta_Zero">
-				<Option output="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Surakarta_Zero" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug"/>
+				<Option output="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Surakarta_Zero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 Surakarta_Zero"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Surakarta_Zero"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Surakarta_Zero/fast">
-				<Option output="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Surakarta_Zero" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug"/>
+				<Option output="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Surakarta_Zero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,95 +73,101 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 Surakarta_Zero/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 Surakarta_Zero/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/basic.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/ArrayList.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/basic.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/ArrayList.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/evaluator.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/basic.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/evaluator.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/basic.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/game_ai.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/evaluator.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/game_ai.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/evaluator.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/hash_table.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/game_ai.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/hash_table.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/game_ai.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/initialization.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/hash_table.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/initialization.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/hash_table.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/interact.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/initialization.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/interact.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/initialization.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/main.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/interact.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/move_generator.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/interact.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/move_generator.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/main.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/record.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/move_generator.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/record.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/move_generator.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/run.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/record.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/run.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/record.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/search_engine.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/run.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/search_engine.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/run.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/sort.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/search_engine.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/sort.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/search_engine.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/test.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/sort.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/test.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/sort.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/ui.cpp">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/test.cpp">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/ui.h">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/test.h">
 			<Option target="Surakarta_Zero"/>
 		</Unit>
-		<Unit filename="/Users/bluesky/Desktop/Surakarta_Zero/CMakeLists.txt">
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/ui.cpp">
+			<Option target="Surakarta_Zero"/>
+		</Unit>
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/ui.h">
+			<Option target="Surakarta_Zero"/>
+		</Unit>
+		<Unit filename="/Users/bluesky/Documents/Surakarta_Zero_OLD/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

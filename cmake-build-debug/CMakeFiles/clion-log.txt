@@ -1,7 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bluesky/Desktop/Surakarta_Zero
--- Found SDL2_IMAGE: /Library/Frameworks/SDL2_image.framework  
--- Found SDL2: /Library/Frameworks/SDL2.framework;-framework Cocoa  
--- Found SDL2_TTF: /Library/Frameworks/SDL2_ttf.framework  
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bluesky/Documents/Surakarta_Zero_OLD
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/bluesky/Desktop/Surakarta_Zero/cmake-build-debug
+-- Build files have been written to: /Users/bluesky/Documents/Surakarta_Zero_OLD/cmake-build-debug

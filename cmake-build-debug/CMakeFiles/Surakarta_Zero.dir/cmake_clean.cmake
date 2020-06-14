@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Surakarta_Zero.dir/ArrayList.cpp.o"
   "CMakeFiles/Surakarta_Zero.dir/basic.cpp.o"
   "CMakeFiles/Surakarta_Zero.dir/evaluator.cpp.o"
   "CMakeFiles/Surakarta_Zero.dir/game_ai.cpp.o"

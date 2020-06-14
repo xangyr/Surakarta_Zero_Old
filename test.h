@@ -7,9 +7,7 @@
 #include <iostream>
 #include "move_generator.h"
 #include "search_engine.h"
-#define NO_CHESS 0
-#define PINK_CHESS 1
-#define BLACK_CHESS -1
+#include "chessboard.h"
 
 void test_alpha_beta(FILE *fp);
 int * decode(long long board);
