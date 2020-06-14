@@ -1,0 +1,31 @@
+#2018-08-03-10:15 |北京信息科技大学
+#先手方: 贝壳苏拉|后手方:北信科苏拉卡尔塔|先手胜
+B2C - 2D
+R4F - 3E
+B1B - 2A
+R5B - 4C
+B0B x 4A
+R3D - 2C
+B1C - 0B
+R2C - 3D
+B2D - 1C
+R3E - 3F
+B1C - 1B
+R2E - 2D
+B1B - 1C
+R5E - 4F
+B1C - 1B
+R4F - 3E
+B1F - 2E
+R5D - 5E
+B2E - 1F
+R2D - 2C
+B1B - 1C
+R2C - 2D
+B1C - 1B
+R2D - 2C
+B1B - 1C
+R2C - 2D
+B1C - 1B
+R2D - 2C
+B1B - 1C
